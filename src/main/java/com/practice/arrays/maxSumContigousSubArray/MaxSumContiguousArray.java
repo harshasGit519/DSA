@@ -4,14 +4,14 @@ public class MaxSumContiguousArray {
 
     public static void main(String[] args){
         MaxSumContiguousArray maxSumContiguousArray = new MaxSumContiguousArray();
-        int[] A = new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        int[] A = new int[]{-163, -20};
         System.out.print("Max Sub Array Sum is :: "+maxSumContiguousArray.maxSubArray(A));
     }
 
     public int maxSubArray(final int[] A) {
-        int sum = A[0];
-        int max = A[0];
-        for(int i =1;i<A.length;i++){
+        int sum = 0;
+        int max = Integer.MIN_VALUE;
+        for(int i =0;i<A.length;i++){
             sum = sum+A[i];
             if(sum>max){
                 max = sum;
