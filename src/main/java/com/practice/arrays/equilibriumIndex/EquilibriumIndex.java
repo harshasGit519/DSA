@@ -16,6 +16,7 @@ public class EquilibriumIndex {
         int[] A = new int[]{3, 4, 7, 1, 2, 9, 8};
         EquilibriumIndex equilibriumIndex = new EquilibriumIndex();
         int[] result = equilibriumIndex.equal(A);
+        System.out.print("Equilibrium Index Values are :: ");
         for (int ans : result) {
             System.out.print(ans + "\t");
         }
