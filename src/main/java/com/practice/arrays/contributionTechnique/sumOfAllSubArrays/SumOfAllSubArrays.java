@@ -12,7 +12,7 @@ public class SumOfAllSubArrays {
         long ans = 0;
         int n = A.length;
         for (int i = 0; i < n; i++) {
-            // casting to long at first place rather than casting later when all calculations are done so that we dont land into integer overflow issues
+            // casting to long at first place rather than casting later when all calculations are done so that we don't land into integer overflow issues
             ans += (long) A[i] * (i + 1) * (n - i);
         }
         return ans;
