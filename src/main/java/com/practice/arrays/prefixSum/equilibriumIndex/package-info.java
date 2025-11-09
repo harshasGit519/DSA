@@ -1,4 +1,4 @@
-package com.practice.arrays.equilibriumIndex;
+package com.practice.arrays.prefixSum.equilibriumIndex;
 
 //Problem Description
 //

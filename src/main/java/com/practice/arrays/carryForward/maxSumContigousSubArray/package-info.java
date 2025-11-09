@@ -1,4 +1,4 @@
-package com.practice.arrays.maxSumContigousSubArray;
+package com.practice.arrays.carryForward.maxSumContigousSubArray;
 
 //Problem Description
 //
